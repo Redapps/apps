@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3441BEBF17812824001E5B92 /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BEBD17812824001E5B92 /* Environment.m */; };
+		3441BEC017812824001E5B92 /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3441BEBE17812824001E5B92 /* Environments.plist */; };
+		3441BEC4178128FB001E5B92 /* NSString+hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BEC3178128FB001E5B92 /* NSString+hashes.m */; };
+		3441BEC717812906001E5B92 /* ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BEC617812906001E5B92 /* ActiveRecord.m */; };
+		3441BEC91781291F001E5B92 /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3441BEC81781291F001E5B92 /* libcommonCrypto.dylib */; };
+		3441BED51781295E001E5B92 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BECB1781295D001E5B92 /* FMDatabase.m */; };
+		3441BED61781295E001E5B92 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BECD1781295E001E5B92 /* FMDatabaseAdditions.m */; };
+		3441BED71781295E001E5B92 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BECF1781295E001E5B92 /* FMDatabasePool.m */; };
+		3441BED81781295E001E5B92 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BED11781295E001E5B92 /* FMDatabaseQueue.m */; };
+		3441BED91781295E001E5B92 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BED21781295E001E5B92 /* fmdb.m */; };
+		3441BEDA1781295E001E5B92 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BED41781295E001E5B92 /* FMResultSet.m */; };
+		3441BEE117812F39001E5B92 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3441BEE017812F39001E5B92 /* libsqlite3.0.dylib */; };
 		34B588351781211000DE5057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B588341781211000DE5057 /* UIKit.framework */; };
 		34B588371781211000DE5057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B588361781211000DE5057 /* Foundation.framework */; };
 		34B588391781211000DE5057 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B588381781211000DE5057 /* CoreGraphics.framework */; };
@@ -19,6 +31,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3441BEBC17812824001E5B92 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		3441BEBD17812824001E5B92 /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		3441BEBE17812824001E5B92 /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Environments.plist; sourceTree = "<group>"; };
+		3441BEC2178128FB001E5B92 /* NSString+hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hashes.h"; sourceTree = "<group>"; };
+		3441BEC3178128FB001E5B92 /* NSString+hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hashes.m"; sourceTree = "<group>"; };
+		3441BEC517812906001E5B92 /* ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveRecord.h; sourceTree = "<group>"; };
+		3441BEC617812906001E5B92 /* ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveRecord.m; sourceTree = "<group>"; };
+		3441BEC81781291F001E5B92 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+		3441BECA1781295D001E5B92 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3441BECB1781295D001E5B92 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3441BECC1781295E001E5B92 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3441BECD1781295E001E5B92 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3441BECE1781295E001E5B92 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3441BECF1781295E001E5B92 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3441BED01781295E001E5B92 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3441BED11781295E001E5B92 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3441BED21781295E001E5B92 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
+		3441BED31781295E001E5B92 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3441BED41781295E001E5B92 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3441BEE017812F39001E5B92 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		34B588311781211000DE5057 /* RedRedapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedRedapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B588341781211000DE5057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		34B588361781211000DE5057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3441BEE117812F39001E5B92 /* libsqlite3.0.dylib in Frameworks */,
+				3441BEC91781291F001E5B92 /* libcommonCrypto.dylib in Frameworks */,
 				34B588351781211000DE5057 /* UIKit.framework in Frameworks */,
 				34B588371781211000DE5057 /* Foundation.framework in Frameworks */,
 				34B588391781211000DE5057 /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +82,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3441BEC117812828001E5B92 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				3441BEBC17812824001E5B92 /* Environment.h */,
+				3441BEBD17812824001E5B92 /* Environment.m */,
+				3441BEBE17812824001E5B92 /* Environments.plist */,
+			);
+			name = Environment;
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		3441BEDB17812962001E5B92 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3441BED31781295E001E5B92 /* FMResultSet.h */,
+				3441BED41781295E001E5B92 /* FMResultSet.m */,
+				3441BECA1781295D001E5B92 /* FMDatabase.h */,
+				3441BECB1781295D001E5B92 /* FMDatabase.m */,
+				3441BECC1781295E001E5B92 /* FMDatabaseAdditions.h */,
+				3441BECD1781295E001E5B92 /* FMDatabaseAdditions.m */,
+				3441BECE1781295E001E5B92 /* FMDatabasePool.h */,
+				3441BECF1781295E001E5B92 /* FMDatabasePool.m */,
+				3441BED01781295E001E5B92 /* FMDatabaseQueue.h */,
+				3441BED11781295E001E5B92 /* FMDatabaseQueue.m */,
+				3441BED21781295E001E5B92 /* fmdb.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		3441BEDC17812978001E5B92 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3441BEC517812906001E5B92 /* ActiveRecord.h */,
+				3441BEC617812906001E5B92 /* ActiveRecord.m */,
+				3441BEC2178128FB001E5B92 /* NSString+hashes.h */,
+				3441BEC3178128FB001E5B92 /* NSString+hashes.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3441BEDD17812A12001E5B92 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				34B588461781211000DE5057 /* Default.png */,
+				34B588481781211000DE5057 /* Default@2x.png */,
+				34B5884A1781211000DE5057 /* Default-568h@2x.png */,
+			);
+			path = "Launch Images";
+			sourceTree = "<group>";
+		};
+		3441BEDE17812A1E001E5B92 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				3441BEDF17812A33001E5B92 /* App Icon */,
+				3441BEDD17812A12001E5B92 /* Launch Images */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+		3441BEDF17812A33001E5B92 /* App Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "App Icon";
+			sourceTree = "<group>";
+		};
 		34B588281781211000DE5057 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +168,8 @@
 		34B588331781211000DE5057 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3441BEE017812F39001E5B92 /* libsqlite3.0.dylib */,
+				3441BEC81781291F001E5B92 /* libcommonCrypto.dylib */,
 				34B588341781211000DE5057 /* UIKit.framework */,
 				34B588361781211000DE5057 /* Foundation.framework */,
 				34B588381781211000DE5057 /* CoreGraphics.framework */,
@@ -78,8 +180,13 @@
 		34B5883A1781211000DE5057 /* Redapp */ = {
 			isa = PBXGroup;
 			children = (
+				3441BEC117812828001E5B92 /* Environment */,
+				3441BEDB17812962001E5B92 /* FMDB */,
+				3441BEDC17812978001E5B92 /* Utilities */,
 				34B588431781211000DE5057 /* AppDelegate.h */,
 				34B588441781211000DE5057 /* AppDelegate.m */,
+				34B5883D1781211000DE5057 /* InfoPlist.strings */,
+				3441BEDE17812A1E001E5B92 /* Artwork */,
 				34B5883B1781211000DE5057 /* Supporting Files */,
 			);
 			name = Redapp;
@@ -89,15 +196,11 @@
 		34B5883B1781211000DE5057 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34B5883C1781211000DE5057 /* Redapps-Info.plist */,
-				34B5883D1781211000DE5057 /* InfoPlist.strings */,
 				34B588401781211000DE5057 /* main.m */,
+				34B5883C1781211000DE5057 /* Redapps-Info.plist */,
 				34B588421781211000DE5057 /* Redapps-Prefix.pch */,
-				34B588461781211000DE5057 /* Default.png */,
-				34B588481781211000DE5057 /* Default@2x.png */,
-				34B5884A1781211000DE5057 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +258,7 @@
 				34B588471781211000DE5057 /* Default.png in Resources */,
 				34B588491781211000DE5057 /* Default@2x.png in Resources */,
 				34B5884B1781211000DE5057 /* Default-568h@2x.png in Resources */,
+				3441BEC017812824001E5B92 /* Environments.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +271,15 @@
 			files = (
 				34B588411781211000DE5057 /* main.m in Sources */,
 				34B588451781211000DE5057 /* AppDelegate.m in Sources */,
+				3441BEBF17812824001E5B92 /* Environment.m in Sources */,
+				3441BEC4178128FB001E5B92 /* NSString+hashes.m in Sources */,
+				3441BEC717812906001E5B92 /* ActiveRecord.m in Sources */,
+				3441BED51781295E001E5B92 /* FMDatabase.m in Sources */,
+				3441BED61781295E001E5B92 /* FMDatabaseAdditions.m in Sources */,
+				3441BED71781295E001E5B92 /* FMDatabasePool.m in Sources */,
+				3441BED81781295E001E5B92 /* FMDatabaseQueue.m in Sources */,
+				3441BED91781295E001E5B92 /* fmdb.m in Sources */,
+				3441BEDA1781295E001E5B92 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +363,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "app/Redapps-Prefix.pch";
 				INFOPLIST_FILE = "app/Redapps-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = RedRedapps;
 				WRAPPER_EXTENSION = app;
 			};
@@ -261,6 +378,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "app/Redapps-Prefix.pch";
 				INFOPLIST_FILE = "app/Redapps-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = RedRedapps;
 				WRAPPER_EXTENSION = app;
 			};
